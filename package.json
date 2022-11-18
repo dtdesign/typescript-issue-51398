@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@woltlab/wcf": "https://github.com/WoltLab/WCF.git#a813abc9e076ad591ddcabdfe7d2da4146065099"
+  }
+}

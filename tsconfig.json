@@ -1,0 +1,30 @@
+{
+  "include": [
+    "node_modules/@woltlab/wcf/global.d.ts",
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "amd",
+    "rootDir": "src/",
+    "outDir": "dist/",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/@woltlab/wcf/ts/*"
+      ]
+    },
+    "importHelpers": true,
+    "newLine": "lf"
+  }
+}
